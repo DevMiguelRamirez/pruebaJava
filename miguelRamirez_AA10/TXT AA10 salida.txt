@@ -1,0 +1,126 @@
+{"title":
+"El tiempo en la provincia de Granada",
+"today":
+{"p":
+"Cielos poco nubosos,
+ con intervalos de nubes altas por la tarde. Temperaturas con ligeros cambios. Vientos variables flojos,
+ tendiendo a componente oeste flojo."},
+"tomorrow":
+{"p":
+"Cielos poco nubosos,
+ con intervalos de nubes altas. Brumas,
+ sin descartar bancos de niebla en la costa. Temperaturas con ligeros cambios. Vientos variables flojos."},
+"ciudades":
+[{"id":
+"18023",
+"idProvince":
+"18",
+"name":
+"Baza",
+"nameProvince":
+"Granada",
+"stateSky":
+{"description":
+"Poco nuboso",
+"id":
+"12"},
+"temperatures":
+{"max":
+"31",
+"min":
+"11"}},
+{"id":
+"18122",
+"idProvince":
+"18",
+"name":
+"Loja",
+"nameProvince":
+"Granada",
+"stateSky":
+{"description":
+"Nubes altas",
+"id":
+"17"},
+"temperatures":
+{"max":
+"33",
+"min":
+"18"}},
+{"id":
+"18140",
+"idProvince":
+"18",
+"name":
+"Motril",
+"nameProvince":
+"Granada",
+"stateSky":
+{"description":
+"Poco nuboso",
+"id":
+"12"},
+"temperatures":
+{"max":
+"29",
+"min":
+"20"}},
+{"id":
+"18087",
+"idProvince":
+"18",
+"name":
+"Granada",
+"nameProvince":
+"Granada",
+"stateSky":
+{"description":
+"Poco nuboso",
+"id":
+"12"},
+"temperatures":
+{"max":
+"33",
+"min":
+"13"}}],
+"provincia":
+{"CODPROV":
+"18",
+"NOMBRE_PROVINCIA":
+"Granada",
+"CODAUTON":
+"01",
+"COMUNIDAD_CIUDAD_AUTONOMA":
+"Andaluc\u00eda",
+"CAPITAL_PROVINCIA":
+"Granada"},
+"comautonoma":
+{"ID":
+"and",
+"CODAUTON":
+"01",
+"CODCOMUN":
+"61",
+"NOMBRE":
+"ANDALUC\u00cdA"},
+"metadescripcion":
+"El tiempo en la provincia de Granada",
+"keywords":
+"El tiempo en la provincia de Granada,
+ precipitaciones,
+ viento,
+ lluvia,
+ estado del cielo",
+"breadcrumb":
+[{"name":
+"Provincias",
+"url":
+"\/provincias",
+"title":
+"El tiempo | Lista de provincias"},
+{"name":
+"Granada",
+"url":
+null,
+"title":
+"El tiempo en la provincia de Granada"}]}
