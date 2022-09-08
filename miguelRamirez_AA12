@@ -1,0 +1,71 @@
+import java.time.LocalDate
+def hoy = LocalDate.now()
+
+pipeline{
+    agent any
+    stages{
+        stage('DIADEHOY'){
+            steps{
+                script{
+                    print ("Fecha actual: " + hoy.getDayOfWeek() + "/" + hoy.getMonth() + "/" + hoy.getYear())
+                    switch(hoy.getDayOfWeek()){
+                        case "MONDAY":
+                            stage("MONDAY"){
+                                print "Hoy es Lunes y toca chiste sobre el futbol."
+                                print ""
+                                print "-Mi doctor me aconsejó que deje el fútbol."
+                                print "-¿Por qué?, ¿estás enfermo?"
+                                print "-No, porque me ha visto jugar."
+
+                            }
+                            break;
+                        case "TUESDAY":
+                            stage("TUESDAY"){
+                                print "Hoy es Martes y toca chiste sobre la politica."
+                                print ""
+                                print "¿Qué es un político enterrado en la arena hasta el cuello?"
+                                print " -Un trabajo mal acabado."
+                                
+                            }
+                            break;
+                        case "WEDNESDAY":
+                            stage("WEDNESDAY"){
+                                print "Hoy es miercoles y toca chiste sobre medicos."
+                                print ""
+                                print "- Doctor ¿Ud. piensa que después de esta operación voy a volver a caminar?"
+                                print "- Claro que si... ¡Porque va a tener que vender el carro para pagar la factura de la Clínica..!"
+                            }
+                            break;
+                        case "THURSDAY":
+                            stage("THURSDAY"){
+                                print "Hoy es Jueves y toca chiste sobre la informatica."
+                                print ""
+                                print "- Mamá, ¿qué haces en frente de la computadora con los ojos cerrados?"
+                                print "- Nada, hijo, es que Windows me dijo que cerrara las pestañas."
+                            }
+                            break;
+                        case "FRIDAY":
+                            stage("FRIDAY"){
+                                print "Hoy es viernes y toca chiste de humor negro."
+                                print "Soy ateo"
+                                print "Yo anuel, ucho gusto"
+                                print "El gusto es ío"
+                            }
+                            break;
+                        case "SATURDAY":
+                            stage("SATURDAY"){
+                                print "Los sabados no hay chistes :("
+                            }
+                            break;
+                        case "SUNDAY":
+                            stage("SUNDAY"){
+                                print "Los domingos no hay chistes :("
+                            }
+                            break;
+                    }
+                }
+            }
+        }
+        
+    }
+}
