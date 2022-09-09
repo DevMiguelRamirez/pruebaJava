@@ -6,8 +6,28 @@ stage('AA13'){
 steps{ 
 script{ 
 def fecha = LocalDate.now() 
-println "El día de hoy es: " + fecha.getDayOfWeek() 
-println "Prueba, a ver si funciona xd" 
+println "El día de hoy es: " + fecha 
+println "TOP 20 peliculas con mas recaudaciones en taquilla:" 
+println "Avatar	2847397339"
+println "Avengers: Endgame	2797501328"
+println "Titanic	2201647264"
+println "Star Wars: Episode VII - The Force Awakens	2069521700"
+println "Avengers: Infinity War	2048359754"
+println "Spider-Man: No Way Home	1910675428"
+println "Jurassic World	1671537444"
+println "The Lion King	1663250487"
+println "The Avengers	1518815515"
+println "Furious 7	1515341399"
+println "Frozen II	1450026933"
+println "Top Gun: Maverick	1442160961"
+println "Avengers: Age of Ultron	1402809540"
+println "Black Panther	1347597973"
+println "Harry Potter and the Deathly Hallows: Part 2	1342359942"
+println "Star Wars: Episode VIII - The Last Jedi	1332698830"
+println "Jurassic World: Fallen Kingdom	1310466296"
+println "Frozen	1281508100"
+println "Beauty and the Beast	1273576220"
+println "Incredibles 2	1243089244"
 } 
 } 
 } 

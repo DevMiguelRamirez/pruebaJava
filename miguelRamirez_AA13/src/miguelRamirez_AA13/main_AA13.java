@@ -108,7 +108,16 @@ public class main_AA13 {
 				// System.out.println(pelicula.toString());
 			}
 			sc2.close();
-
+			
+			System.out.println("#########################");
+			System.out.println("TOP 20 MEJORES PELICULAS");
+			System.out.println("#########################");
+			System.out.println("");
+			
+			for (int x = 0; x < peliculas.size(); x++) {
+				System.out.println(peliculas.get(x));
+			}
+			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
@@ -135,8 +144,6 @@ public class main_AA13 {
 		builder.append("} \r\n");
 		builder.append("} \r\n");
 
-		 System.out.println(builder.toString());
-
 		ArrayList<String> array = new ArrayList<>();
 
 		try {
@@ -147,6 +154,7 @@ public class main_AA13 {
 			if (!fichero.exists()) {
 				Path file3 = Paths.get(nombreTXT);
 				Files.write(file3, array, StandardCharsets.UTF_8);
+				System.out.println("");
 				System.out.println("Fichero generado con exito.");
 			}
 
