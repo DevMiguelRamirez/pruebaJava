@@ -1,0 +1,20 @@
+import java.time.LocalDate
+pipeline{
+agent any 
+stages{ 
+stage('AA13'){ 
+steps{ 
+script{ 
+println "Chocolates generados el 9_9_2022"  
+println "Tipo: Chocolate blanco, cantidad: 1000, ingredientes: Manteca de cacao, leche, azúcar, grasa de leche y lecitina"
+println "Tipo: Chocolate negro, cantidad: 1500, ingredientes: Pasta de cacao, azúcar, cacao desgrasado en polvo, manteca de cacao, emulgente: lecitina de soja."
+println "Tipo: Chocolate con almendras, cantidad: 1200, ingredientes: Pasta de cacao, azúcar, cacao desgrasado en polvo, manteca de cacao, y almendras"
+println "Tipo: Chocolate con castañas de caju, cantidad: 1300, ingredientes: Pasta de cacao, azúcar, cacao desgrasado en polvo, manteca de cacao, y castañas"
+println "Tipo: Chocolate en rama	, cantidad: 100, ingredientes: Manteca de cacao, leche, azúcar, grasa de leche y lecitina"
+println "Tipo: Chocolate con 70% de cacao, cantidad: 1500, ingredientes: Pasta de cacao, azúcar, cacao desgrasado en polvo, manteca de cacao, emulgente: lecitina de soja."
+} 
+} 
+} 
+} 
+} 
+
