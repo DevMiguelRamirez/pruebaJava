@@ -122,7 +122,7 @@ public class main_AA13 {
 		builder.append("steps{ \r\n");
 		builder.append("script{ \r\n");
 		builder.append("def fecha = LocalDate.now() \r\n");
-		builder.append("println \"El día de hoy es: \" + fecha.getDayOfWeek() \r\n");
+		builder.append("println \"El día de hoy es: \" + fecha \r\n");
 		builder.append("println \"TOP 20 peliculas con mas recaudaciones en taquilla:\" \r\n");
 
 		for (int x = 0; x < peliculas.size(); x++) {
