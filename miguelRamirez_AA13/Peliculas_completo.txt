@@ -1,0 +1,16 @@
+import java.time.LocalDate
+pipeline{
+agent any 
+stages{ 
+stage('AA13'){ 
+steps{ 
+script{ 
+def fecha = LocalDate.now() 
+println "El día de hoy es: " + fecha.getDayOfWeek() 
+println "Prueba, a ver si funciona xd" 
+} 
+} 
+} 
+} 
+} 
+
