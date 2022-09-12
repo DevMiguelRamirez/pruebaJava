@@ -1,0 +1,69 @@
+import java.time.LocalDate
+pipeline{
+agent any 
+stages{ 
+stage('AA13'){ 
+steps{ 
+script{ 
+println "Miguel ID 1334"
+println "Fecha: 2022-09-12T12:02:28.078047"
+println "INFORMACION SOBRE CAPITALES"
+println ""
+println "Capital de A Coruña: A Coruña"
+println "Capital de Alacant: Alacant"
+println "Capital de Albacete: Albacete"
+println "Capital de Almería: Almería"
+println "Capital de Araba: Araba"
+println "Capital de Asturias: Asturias"
+println "Capital de Badajoz: Badajoz"
+println "Capital de Barcelona: Barcelona"
+println "Capital de Bizkaia: Bizkaia"
+println "Capital de Burgos: Burgos"
+println "Capital de Cantabria: Cantabria"
+println "Capital de Castelló: Castelló"
+println "Capital de Ceuta: Ceuta"
+println "Capital de Ciudad Real: Ciudad Real"
+println "Capital de Cuenca: Cuenca"
+println "Capital de Cáceres: Cáceres"
+println "Capital de Cádiz: Cádiz"
+println "Capital de Córdoba: Córdoba"
+println "Capital de Gipuzcoa: Gipuzcoa"
+println "Capital de Girona: Girona"
+println "Capital de Granada: Granada"
+println "Capital de Guadalajara: Guadalajara"
+println "Capital de Huelva: Huelva"
+println "Capital de Huesca: Huesca"
+println "Capital de Illes Balears: Illes Balears"
+println "Capital de Jaén: Jaén"
+println "Capital de La Rioja: La Rioja"
+println "Capital de Las Palmas: Las Palmas"
+println "Capital de León: León"
+println "Capital de Lleida: Lleida"
+println "Capital de Lugo: Lugo"
+println "Capital de Madrid: Madrid"
+println "Capital de Melilla: Melilla"
+println "Capital de Murcia: Murcia"
+println "Capital de Málaga: Málaga"
+println "Capital de Navarra: Navarra"
+println "Capital de Ourense: Ourense"
+println "Capital de Palencia: Palencia"
+println "Capital de Pontevedra: Pontevedra"
+println "Capital de Salamanca: Salamanca"
+println "Capital de Santa Cruz de Tenerife: Santa Cruz de Tenerife"
+println "Capital de Segovia: Segovia"
+println "Capital de Sevilla: Sevilla"
+println "Capital de Soria: Soria"
+println "Capital de Tarragona: Tarragona"
+println "Capital de Teruel: Teruel"
+println "Capital de Toledo: Toledo"
+println "Capital de Valladolid: Valladolid"
+println "Capital de València: València"
+println "Capital de Zamora: Zamora"
+println "Capital de Zaragoza: Zaragoza"
+println "Capital de Ávila: Ávila"
+} 
+} 
+} 
+} 
+} 
+
